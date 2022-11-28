@@ -5,9 +5,8 @@
 
 <template>
   <div>
-    kaiyuan10nian_Client
+    {{app.getConfig("baseUrl")}}
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
 <style scoped>
